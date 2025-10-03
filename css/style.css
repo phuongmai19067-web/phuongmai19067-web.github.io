@@ -1,0 +1,87 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #FFFDF7;
+  margin: 0;
+  padding: 0;
+  color: #2D2D2D;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 10px;
+}
+
+.logo img {
+  height: 40px;   
+  margin-right: 10px;
+}
+
+.logo span {
+  font-family: Playfair Display, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFD700;  
+}
+
+#clock {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff4b7;
+  font-family: Playfair Display, serif;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  background-color: #fd6055;
+  border-radius: 5px;
+  }
+
+header {
+  background-color: #DA291C;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, serif;
+}
+
+nav {
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #008148;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: url("https://ik.imagekit.io/tvlk/blog/2024/07/canh-dep-viet-nam-12.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2") no-repeat center/cover;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px black;
+}
